@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ServeEase | Service Booking Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="ServeEase home">
+        <span class="logo-mark">S</span>
+        <span class="logo-text">ServeEase</span>
+      </a>
+
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#booking" class="nav-link">Booking</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#booking" class="nav-cta">Schedule Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <span class="eyebrow">Client-ready booking experience</span>
+          <h1>Professional service scheduling for modern local businesses.</h1>
+          <p class="hero-sub">
+            ServeEase gives salons, repair teams, wellness providers, and freelance operators
+            a polished booking flow that feels fast, clear, and trustworthy from the first click.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary">Start a Booking</a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric">
+              <strong>4.9/5</strong>
+              <span>Customer satisfaction</span>
+            </div>
+            <div class="metric">
+              <strong>10k+</strong>
+              <span>Appointments processed</span>
+            </div>
+            <div class="metric">
+              <strong>24 hrs</strong>
+              <span>Average response window</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-card hero-card-main">
+            <div class="card-topline">
+              <span class="status-pill">Live schedule</span>
+              <span class="muted-label">Updated 2 mins ago</span>
+            </div>
+
+            <div class="appointment-summary">
+              <div class="avatar-block">SE</div>
+              <div>
+                <p class="summary-title">Premium Home Service Visit</p>
+                <p class="summary-subtitle">Assigned to Priya Malhotra</p>
+              </div>
+            </div>
+
+            <div class="detail-list">
+              <div class="detail-row">
+                <span>Date</span>
+                <strong>May 12, 2026</strong>
+              </div>
+              <div class="detail-row">
+                <span>Time</span>
+                <strong>11:00 AM</strong>
+              </div>
+              <div class="detail-row">
+                <span>Location</span>
+                <strong>Meerut, Uttar Pradesh</strong>
+              </div>
+              <div class="detail-row">
+                <span>Payment</span>
+                <strong>Pay on arrival</strong>
+              </div>
+            </div>
+
+            <div class="schedule-progress">
+              <div class="progress-labels">
+                <span>Today booked</span>
+                <strong>72%</strong>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card hero-card-side hero-card-top">
+            <p class="side-label">New inquiry</p>
+            <strong>Corporate wellness request</strong>
+            <span>8 team sessions requested</span>
+          </div>
+
+          <div class="hero-card hero-card-side hero-card-bottom">
+            <p class="side-label">Recent feedback</p>
+            <strong>"Smooth, premium, and easy to trust."</strong>
+            <span>Client testimonial</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview-strip">
+      <div class="container overview-grid">
+        <div class="overview-item">
+          <span class="overview-kicker">01</span>
+          <strong>High-trust first impression</strong>
+          <p>Clear hierarchy, premium typography, and focused messaging.</p>
+        </div>
+        <div class="overview-item">
+          <span class="overview-kicker">02</span>
+          <strong>Simple service discovery</strong>
+          <p>Customers can compare options without feeling overwhelmed.</p>
+        </div>
+        <div class="overview-item">
+          <span class="overview-kicker">03</span>
+          <strong>Conversion-minded booking</strong>
+          <p>Shorter forms and calmer UI reduce drop-off during scheduling.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Core services</span>
+          <h2>Designed for versatile service businesses</h2>
+          <p>
+            This basic version covers the most common categories while keeping the interface
+            professional enough for a live demo or early client presentation.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card featured">
+            <div class="service-icon">HS</div>
+            <span class="service-tag">Most booked</span>
+            <h3>Hair and Styling</h3>
+            <p>Consultations, premium hair spa packages, cuts, styling, and color appointments.</p>
+            <div class="card-footer">
+              <span class="price">From Rs 299</span>
+              <a href="#booking" class="text-link">Book service</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">HR</div>
+            <h3>Home Repairs</h3>
+            <p>Electricians, plumbers, and carpentry professionals for routine and urgent work.</p>
+            <div class="card-footer">
+              <span class="price">From Rs 499</span>
+              <a href="#booking" class="text-link">Book service</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">DC</div>
+            <h3>Deep Cleaning</h3>
+            <p>Residential and office cleaning packages with reliable scheduling and vetted staff.</p>
+            <div class="card-footer">
+              <span class="price">From Rs 799</span>
+              <a href="#booking" class="text-link">Book service</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">TS</div>
+            <h3>Tech Support</h3>
+            <p>Device setup, troubleshooting, data recovery, and networking support for homes.</p>
+            <div class="card-footer">
+              <span class="price">From Rs 399</span>
+              <a href="#booking" class="text-link">Book service</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">SW</div>
+            <h3>Spa and Wellness</h3>
+            <p>Massage, skin care, and home wellness experiences with premium service framing.</p>
+            <div class="card-footer">
+              <span class="price">From Rs 599</span>
+              <a href="#booking" class="text-link">Book service</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">PH</div>
+            <h3>Photography</h3>
+            <p>Events, portraits, and product shoots supported by quick turnaround and booking clarity.</p>
+            <div class="card-footer">
+              <span class="price">From Rs 1,499</span>
+              <a href="#booking" class="text-link">Book service</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking section" id="booking">
+      <div class="container booking-layout">
+        <div class="booking-copy">
+          <span class="eyebrow eyebrow-light">Booking experience</span>
+          <h2>Fast to complete. Calm to review.</h2>
+          <p>
+            The form is intentionally straightforward so it still feels like a basic product,
+            but the presentation is polished enough to communicate quality and operational maturity.
+          </p>
+
+          <div class="booking-points">
+            <div class="booking-point">
+              <strong>Instant acknowledgement</strong>
+              <span>Customers know their request has been received.</span>
+            </div>
+            <div class="booking-point">
+              <strong>Flexible scheduling</strong>
+              <span>Clear time-slot choices make decisions faster.</span>
+            </div>
+            <div class="booking-point">
+              <strong>Presentation-ready</strong>
+              <span>Clean form styling holds up during demos and screen shares.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-shell">
+          <form class="booking-form" id="booking-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Rahul Sharma" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="rahul@email.com" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
+              </div>
+              <div class="form-group">
+                <label for="service">Select Service</label>
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>Choose a service</option>
+                  <option>Hair and Styling</option>
+                  <option>Home Repairs</option>
+                  <option>Deep Cleaning</option>
+                  <option>Tech Support</option>
+                  <option>Spa and Wellness</option>
+                  <option>Photography</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bdate">Preferred Date</label>
+                <input type="date" id="bdate" name="bdate" required />
+              </div>
+              <div class="form-group">
+                <label for="btime">Preferred Time</label>
+                <select id="btime" name="btime" required>
+                  <option value="" disabled selected>Pick a slot</option>
+                  <option>09:00 AM</option>
+                  <option>10:00 AM</option>
+                  <option>11:00 AM</option>
+                  <option>12:00 PM</option>
+                  <option>02:00 PM</option>
+                  <option>03:00 PM</option>
+                  <option>04:00 PM</option>
+                  <option>05:00 PM</option>
+                  <option>06:00 PM</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Additional Notes <span>Optional</span></label>
+              <textarea id="notes" name="notes" rows="4" placeholder="Any location details, preferences, or special instructions"></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-submit">Confirm Booking</button>
+              <p class="form-caption">No payment required to submit this request.</p>
+            </div>
+          </form>
+
+          <div class="success-msg" id="success-msg" aria-live="polite">
+            <div class="success-badge">Confirmed</div>
+            <h3>Booking request submitted</h3>
+            <p>We will send a confirmation summary and next steps to your email shortly.</p>
+            <button class="btn btn-secondary" id="new-booking-btn" type="button">Make Another Booking</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-layout">
+        <div class="section-header section-header-left">
+          <span class="eyebrow">Contact</span>
+          <h2>Make it easy to continue the conversation</h2>
+          <p>
+            A clean contact area helps the concept feel complete without overbuilding the first version.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-panel">
+            <div class="contact-item">
+              <span class="contact-label">Email</span>
+              <a href="mailto:hello@serveease.in">hello@serveease.in</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Phone</span>
+              <a href="tel:+919876543210">+91 98765 43210</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Office</span>
+              <p>42 Civil Lines, Meerut, Uttar Pradesh 250001</p>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Working Hours</span>
+              <p>Monday to Saturday, 9 AM to 7 PM</p>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="c-name">Your Name</label>
+              <input type="text" id="c-name" placeholder="Priya Verma" required />
+            </div>
+            <div class="form-group">
+              <label for="c-email">Your Email</label>
+              <input type="email" id="c-email" placeholder="priya@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="c-msg">Message</label>
+              <textarea id="c-msg" rows="5" placeholder="Tell us what you would like to discuss" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-mark">S</span>
+          <span class="logo-text">ServeEase</span>
+        </a>
+        <p>Professional booking experiences for service-led businesses.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-meta">
+        <span>Built for client demos</span>
+        <span>&copy; 2026 ServeEase</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
